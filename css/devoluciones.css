@@ -1,0 +1,187 @@
+.devoluciones {
+    padding: 100px 20px;
+    color: #E0E0E0;
+}
+
+.devoluciones h1 {
+    font-size: 36px;
+    color: #FF5A2C;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.devoluciones-content {
+    background-color: #2A223A;
+    padding: 30px;
+    border-radius: 15px;
+    line-height: 1.8;
+}
+
+.devoluciones-content h2 {
+    font-size: 24px;
+    color: #FF5A2C;
+    margin-top: 20px;
+}
+
+.devoluciones-content p, .devoluciones-content ul, .devoluciones-content ol {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.devoluciones-content ul, .devoluciones-content ol {
+    margin-left: 20px;
+}
+
+.devoluciones-content li {
+    margin-bottom: 10px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-txt h1 {
+        font-size: 40px;
+    }
+
+    .header-txt p {
+        font-size: 15px;
+    }
+
+    .devoluciones h1 {
+        font-size: 30px;
+    }
+
+    .devoluciones-content {
+        padding: 20px;
+    }
+
+    .devoluciones-content h2 {
+        font-size: 22px;
+    }
+
+    .devoluciones-content p,
+    .devoluciones-content ul,
+    .devoluciones-content ol {
+        font-size: 15px;
+    }
+
+    footer .footer-container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .footer-section {
+        flex-basis: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu .navbar ul {
+        display: none;
+    }
+
+    .menu label {
+        display: block;
+    }
+
+    #menu:checked + label + .navbar ul {
+        display: flex;
+        flex-direction: column;
+        background-color: #1b1726;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        border-top: 1px solid #FF5A2C;
+    }
+
+    .menu .navbar ul li {
+        margin: 10px 0;
+    }
+
+    .header-txt h1 {
+        font-size: 32px;
+    }
+
+    .header-txt p {
+        font-size: 14px;
+    }
+
+    .devoluciones h1 {
+        font-size: 26px;
+    }
+
+    .devoluciones-content h2 {
+        font-size: 20px;
+    }
+
+    .devoluciones-content p,
+    .devoluciones-content ul,
+    .devoluciones-content ol {
+        font-size: 14px;
+    }
+
+    footer .footer-section {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .footer-bottom {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 60px 0;
+    }
+
+    .header-txt h1 {
+        font-size: 24px;
+    }
+
+    .header-txt p {
+        font-size: 12px;
+    }
+
+    .menu .logo {
+        font-size: 20px;
+    }
+
+    .devoluciones h1 {
+        font-size: 22px;
+    }
+
+    .devoluciones-content h2 {
+        font-size: 18px;
+    }
+
+    .devoluciones-content p,
+    .devoluciones-content ul,
+    .devoluciones-content ol {
+        font-size: 13px;
+    }
+
+    footer .footer-section h3 {
+        font-size: 18px;
+    }
+
+    footer .footer-section p,
+    footer .footer-section ul li a {
+        font-size: 13px;
+    }
+
+    .social-links a {
+        font-size: 18px;
+    }
+}
